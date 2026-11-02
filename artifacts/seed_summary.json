@@ -1,0 +1,670 @@
+{
+  "training_seeds": [
+    7,
+    19,
+    41
+  ],
+  "runs": [
+    {
+      "training_seed": 7,
+      "training_seconds": 15.479168063000088,
+      "policies": {
+        "trained": {
+          "reward": 0.8868594653443822,
+          "energy_j_per_slot": 5.691622853830657,
+          "energy_j_per_completed_mbit": 0.2645588994826187,
+          "deadline_success": 0.9918634322355686,
+          "queue_mbit": 5.192333333333333,
+          "queue_growth_mbit": 0.05033333333333333,
+          "latency_s": 0.25064767690158457,
+          "completed_subtasks": 537.7,
+          "attempted_subtasks": 542.15
+        },
+        "untrained": {
+          "reward": 0.2945801564721464,
+          "energy_j_per_slot": 9.037572459203156,
+          "energy_j_per_completed_mbit": 0.47587527591049456,
+          "deadline_success": 0.7789691837391562,
+          "queue_mbit": 13.107999999999999,
+          "queue_growth_mbit": 0.4666666666666666,
+          "latency_s": 0.5776504470171535,
+          "completed_subtasks": 475.25,
+          "attempted_subtasks": 610.85
+        },
+        "warmstart": {
+          "reward": 0.5570125140647624,
+          "energy_j_per_slot": 6.180328990438506,
+          "energy_j_per_completed_mbit": 0.2939261597814551,
+          "deadline_success": 0.8530162349552997,
+          "queue_mbit": 7.417666666666666,
+          "queue_growth_mbit": 0.12933333333333333,
+          "latency_s": 0.47540962288289546,
+          "completed_subtasks": 525.85,
+          "attempted_subtasks": 616.6
+        },
+        "final": {
+          "reward": 0.8807829589644385,
+          "energy_j_per_slot": 5.782471653798451,
+          "energy_j_per_completed_mbit": 0.2687935756228393,
+          "deadline_success": 0.9918592753600721,
+          "queue_mbit": 5.190333333333333,
+          "queue_growth_mbit": 0.04933333333333333,
+          "latency_s": 0.25330969077618837,
+          "completed_subtasks": 537.85,
+          "attempted_subtasks": 542.3
+        },
+        "random": {
+          "reward": 0.36732132966785513,
+          "energy_j_per_slot": 7.784388475750575,
+          "energy_j_per_completed_mbit": 0.3859737844215798,
+          "deadline_success": 0.7989381907230294,
+          "queue_mbit": 10.376333333333331,
+          "queue_growth_mbit": 0.27433333333333343,
+          "latency_s": 0.5436065398635522,
+          "completed_subtasks": 504.1,
+          "attempted_subtasks": 631.55
+        },
+        "local": {
+          "reward": -0.07193470822343137,
+          "energy_j_per_slot": 10.845678411183762,
+          "energy_j_per_completed_mbit": 2.111474845792609,
+          "deadline_success": 0.2282704974954033,
+          "queue_mbit": 56.428,
+          "queue_growth_mbit": 2.596333333333334,
+          "latency_s": 1.3506856610149032,
+          "completed_subtasks": 155.8,
+          "attempted_subtasks": 687.95
+        },
+        "mec_first": {
+          "reward": 0.17774725063968078,
+          "energy_j_per_slot": 8.171053921225115,
+          "energy_j_per_completed_mbit": 0.693315666066636,
+          "deadline_success": 0.46774011053536285,
+          "queue_mbit": 36.19266666666665,
+          "queue_growth_mbit": 1.598666666666667,
+          "latency_s": 0.9810405633072531,
+          "completed_subtasks": 305.45,
+          "attempted_subtasks": 656.85
+        },
+        "matching": {
+          "reward": 0.9801613939499451,
+          "energy_j_per_slot": 4.503160785289316,
+          "energy_j_per_completed_mbit": 0.20904969969614404,
+          "deadline_success": 0.9928433998143464,
+          "queue_mbit": 5.192333333333332,
+          "queue_growth_mbit": 0.05066666666666667,
+          "latency_s": 0.27406958857736685,
+          "completed_subtasks": 537.65,
+          "attempted_subtasks": 541.5
+        }
+      }
+    },
+    {
+      "training_seed": 19,
+      "training_seconds": 14.49150798699975,
+      "policies": {
+        "trained": {
+          "reward": 0.8941568939803937,
+          "energy_j_per_slot": 5.596770255564404,
+          "energy_j_per_completed_mbit": 0.25995152029864343,
+          "deadline_success": 0.9930201891805286,
+          "queue_mbit": 5.144333333333334,
+          "queue_growth_mbit": 0.04766666666666666,
+          "latency_s": 0.24367036564385902,
+          "completed_subtasks": 538.1,
+          "attempted_subtasks": 541.9
+        },
+        "untrained": {
+          "reward": 0.45637654598441724,
+          "energy_j_per_slot": 7.126517173514801,
+          "energy_j_per_completed_mbit": 0.35302417435461486,
+          "deadline_success": 0.843833017248676,
+          "queue_mbit": 9.766333333333334,
+          "queue_growth_mbit": 0.26866666666666666,
+          "latency_s": 0.47050465598200786,
+          "completed_subtasks": 504.95,
+          "attempted_subtasks": 598.65
+        },
+        "warmstart": {
+          "reward": 0.5665916426431521,
+          "energy_j_per_slot": 6.295053673910617,
+          "energy_j_per_completed_mbit": 0.29651174355739995,
+          "deadline_success": 0.8563393927900348,
+          "queue_mbit": 6.740333333333334,
+          "queue_growth_mbit": 0.09366666666666666,
+          "latency_s": 0.4809324670780598,
+          "completed_subtasks": 531.2,
+          "attempted_subtasks": 620.1
+        },
+        "final": {
+          "reward": 0.8698148237641095,
+          "energy_j_per_slot": 5.979715470062228,
+          "energy_j_per_completed_mbit": 0.27791280502638877,
+          "deadline_success": 0.9945382027419448,
+          "queue_mbit": 5.146,
+          "queue_growth_mbit": 0.048666666666666664,
+          "latency_s": 0.23511505779358086,
+          "completed_subtasks": 537.95,
+          "attempted_subtasks": 540.9
+        },
+        "random": {
+          "reward": 0.36732132966785513,
+          "energy_j_per_slot": 7.784388475750575,
+          "energy_j_per_completed_mbit": 0.3859737844215798,
+          "deadline_success": 0.7989381907230294,
+          "queue_mbit": 10.376333333333331,
+          "queue_growth_mbit": 0.27433333333333343,
+          "latency_s": 0.5436065398635522,
+          "completed_subtasks": 504.1,
+          "attempted_subtasks": 631.55
+        },
+        "local": {
+          "reward": -0.07193470822343137,
+          "energy_j_per_slot": 10.845678411183762,
+          "energy_j_per_completed_mbit": 2.111474845792609,
+          "deadline_success": 0.2282704974954033,
+          "queue_mbit": 56.428,
+          "queue_growth_mbit": 2.596333333333334,
+          "latency_s": 1.3506856610149032,
+          "completed_subtasks": 155.8,
+          "attempted_subtasks": 687.95
+        },
+        "mec_first": {
+          "reward": 0.17774725063968078,
+          "energy_j_per_slot": 8.171053921225115,
+          "energy_j_per_completed_mbit": 0.693315666066636,
+          "deadline_success": 0.46774011053536285,
+          "queue_mbit": 36.19266666666665,
+          "queue_growth_mbit": 1.598666666666667,
+          "latency_s": 0.9810405633072531,
+          "completed_subtasks": 305.45,
+          "attempted_subtasks": 656.85
+        },
+        "matching": {
+          "reward": 0.9801613939499451,
+          "energy_j_per_slot": 4.503160785289316,
+          "energy_j_per_completed_mbit": 0.20904969969614404,
+          "deadline_success": 0.9928433998143464,
+          "queue_mbit": 5.192333333333332,
+          "queue_growth_mbit": 0.05066666666666667,
+          "latency_s": 0.27406958857736685,
+          "completed_subtasks": 537.65,
+          "attempted_subtasks": 541.5
+        }
+      }
+    },
+    {
+      "training_seed": 41,
+      "training_seconds": 15.32757126899969,
+      "policies": {
+        "trained": {
+          "reward": 0.8884623402402283,
+          "energy_j_per_slot": 5.671711207278191,
+          "energy_j_per_completed_mbit": 0.2635781842463804,
+          "deadline_success": 0.9934370867818304,
+          "queue_mbit": 5.166,
+          "queue_growth_mbit": 0.047999999999999994,
+          "latency_s": 0.24401256423650244,
+          "completed_subtasks": 538.05,
+          "attempted_subtasks": 541.6
+        },
+        "untrained": {
+          "reward": 0.06626757327049868,
+          "energy_j_per_slot": 8.787364063537032,
+          "energy_j_per_completed_mbit": 0.5564088853823268,
+          "deadline_success": 0.6038080309394349,
+          "queue_mbit": 22.939,
+          "queue_growth_mbit": 0.9876666666666667,
+          "latency_s": 0.8411417624572888,
+          "completed_subtasks": 397.1,
+          "attempted_subtasks": 659.0
+        },
+        "warmstart": {
+          "reward": 0.523099898112668,
+          "energy_j_per_slot": 6.032124946431407,
+          "energy_j_per_completed_mbit": 0.3049712162136856,
+          "deadline_success": 0.7992645407529442,
+          "queue_mbit": 12.868,
+          "queue_growth_mbit": 0.3346666666666666,
+          "latency_s": 0.526008982447282,
+          "completed_subtasks": 495.05,
+          "attempted_subtasks": 619.55
+        },
+        "final": {
+          "reward": 0.8824228757779948,
+          "energy_j_per_slot": 5.809183592635576,
+          "energy_j_per_completed_mbit": 0.2700746094506911,
+          "deadline_success": 0.9945872451653706,
+          "queue_mbit": 5.151333333333333,
+          "queue_growth_mbit": 0.049666666666666665,
+          "latency_s": 0.22735017014637374,
+          "completed_subtasks": 537.8,
+          "attempted_subtasks": 540.75
+        },
+        "random": {
+          "reward": 0.36732132966785513,
+          "energy_j_per_slot": 7.784388475750575,
+          "energy_j_per_completed_mbit": 0.3859737844215798,
+          "deadline_success": 0.7989381907230294,
+          "queue_mbit": 10.376333333333331,
+          "queue_growth_mbit": 0.27433333333333343,
+          "latency_s": 0.5436065398635522,
+          "completed_subtasks": 504.1,
+          "attempted_subtasks": 631.55
+        },
+        "local": {
+          "reward": -0.07193470822343137,
+          "energy_j_per_slot": 10.845678411183762,
+          "energy_j_per_completed_mbit": 2.111474845792609,
+          "deadline_success": 0.2282704974954033,
+          "queue_mbit": 56.428,
+          "queue_growth_mbit": 2.596333333333334,
+          "latency_s": 1.3506856610149032,
+          "completed_subtasks": 155.8,
+          "attempted_subtasks": 687.95
+        },
+        "mec_first": {
+          "reward": 0.17774725063968078,
+          "energy_j_per_slot": 8.171053921225115,
+          "energy_j_per_completed_mbit": 0.693315666066636,
+          "deadline_success": 0.46774011053536285,
+          "queue_mbit": 36.19266666666665,
+          "queue_growth_mbit": 1.598666666666667,
+          "latency_s": 0.9810405633072531,
+          "completed_subtasks": 305.45,
+          "attempted_subtasks": 656.85
+        },
+        "matching": {
+          "reward": 0.9801613939499451,
+          "energy_j_per_slot": 4.503160785289316,
+          "energy_j_per_completed_mbit": 0.20904969969614404,
+          "deadline_success": 0.9928433998143464,
+          "queue_mbit": 5.192333333333332,
+          "queue_growth_mbit": 0.05066666666666667,
+          "latency_s": 0.27406958857736685,
+          "completed_subtasks": 537.65,
+          "attempted_subtasks": 541.5
+        }
+      }
+    }
+  ],
+  "summary": {
+    "trained": {
+      "reward": {
+        "mean_over_training_seeds": 0.8898262331883348,
+        "min": 0.8868594653443822,
+        "max": 0.8941568939803937
+      },
+      "energy_j_per_slot": {
+        "mean_over_training_seeds": 5.6533681055577505,
+        "min": 5.596770255564404,
+        "max": 5.691622853830657
+      },
+      "energy_j_per_completed_mbit": {
+        "mean_over_training_seeds": 0.2626962013425475,
+        "min": 0.25995152029864343,
+        "max": 0.2645588994826187
+      },
+      "deadline_success": {
+        "mean_over_training_seeds": 0.9927735693993092,
+        "min": 0.9918634322355686,
+        "max": 0.9934370867818304
+      },
+      "queue_mbit": {
+        "mean_over_training_seeds": 5.1675555555555555,
+        "min": 5.144333333333334,
+        "max": 5.192333333333333
+      },
+      "queue_growth_mbit": {
+        "mean_over_training_seeds": 0.048666666666666664,
+        "min": 0.04766666666666666,
+        "max": 0.05033333333333333
+      },
+      "latency_s": {
+        "mean_over_training_seeds": 0.24611020226064867,
+        "min": 0.24367036564385902,
+        "max": 0.25064767690158457
+      },
+      "completed_subtasks": {
+        "mean_over_training_seeds": 537.95,
+        "min": 537.7,
+        "max": 538.1
+      },
+      "attempted_subtasks": {
+        "mean_over_training_seeds": 541.8833333333333,
+        "min": 541.6,
+        "max": 542.15
+      }
+    },
+    "untrained": {
+      "reward": {
+        "mean_over_training_seeds": 0.27240809190902077,
+        "min": 0.06626757327049868,
+        "max": 0.45637654598441724
+      },
+      "energy_j_per_slot": {
+        "mean_over_training_seeds": 8.317151232084996,
+        "min": 7.126517173514801,
+        "max": 9.037572459203156
+      },
+      "energy_j_per_completed_mbit": {
+        "mean_over_training_seeds": 0.4617694452158121,
+        "min": 0.35302417435461486,
+        "max": 0.5564088853823268
+      },
+      "deadline_success": {
+        "mean_over_training_seeds": 0.7422034106424223,
+        "min": 0.6038080309394349,
+        "max": 0.843833017248676
+      },
+      "queue_mbit": {
+        "mean_over_training_seeds": 15.27111111111111,
+        "min": 9.766333333333334,
+        "max": 22.939
+      },
+      "queue_growth_mbit": {
+        "mean_over_training_seeds": 0.5743333333333334,
+        "min": 0.26866666666666666,
+        "max": 0.9876666666666667
+      },
+      "latency_s": {
+        "mean_over_training_seeds": 0.6297656218188167,
+        "min": 0.47050465598200786,
+        "max": 0.8411417624572888
+      },
+      "completed_subtasks": {
+        "mean_over_training_seeds": 459.1,
+        "min": 397.1,
+        "max": 504.95
+      },
+      "attempted_subtasks": {
+        "mean_over_training_seeds": 622.8333333333334,
+        "min": 598.65,
+        "max": 659.0
+      }
+    },
+    "warmstart": {
+      "reward": {
+        "mean_over_training_seeds": 0.5489013516068608,
+        "min": 0.523099898112668,
+        "max": 0.5665916426431521
+      },
+      "energy_j_per_slot": {
+        "mean_over_training_seeds": 6.16916920359351,
+        "min": 6.032124946431407,
+        "max": 6.295053673910617
+      },
+      "energy_j_per_completed_mbit": {
+        "mean_over_training_seeds": 0.29846970651751353,
+        "min": 0.2939261597814551,
+        "max": 0.3049712162136856
+      },
+      "deadline_success": {
+        "mean_over_training_seeds": 0.8362067228327595,
+        "min": 0.7992645407529442,
+        "max": 0.8563393927900348
+      },
+      "queue_mbit": {
+        "mean_over_training_seeds": 9.008666666666667,
+        "min": 6.740333333333334,
+        "max": 12.868
+      },
+      "queue_growth_mbit": {
+        "mean_over_training_seeds": 0.18588888888888888,
+        "min": 0.09366666666666666,
+        "max": 0.3346666666666666
+      },
+      "latency_s": {
+        "mean_over_training_seeds": 0.4941170241360791,
+        "min": 0.47540962288289546,
+        "max": 0.526008982447282
+      },
+      "completed_subtasks": {
+        "mean_over_training_seeds": 517.3666666666667,
+        "min": 495.05,
+        "max": 531.2
+      },
+      "attempted_subtasks": {
+        "mean_over_training_seeds": 618.75,
+        "min": 616.6,
+        "max": 620.1
+      }
+    },
+    "final": {
+      "reward": {
+        "mean_over_training_seeds": 0.8776735528355143,
+        "min": 0.8698148237641095,
+        "max": 0.8824228757779948
+      },
+      "energy_j_per_slot": {
+        "mean_over_training_seeds": 5.857123572165419,
+        "min": 5.782471653798451,
+        "max": 5.979715470062228
+      },
+      "energy_j_per_completed_mbit": {
+        "mean_over_training_seeds": 0.2722603300333064,
+        "min": 0.2687935756228393,
+        "max": 0.27791280502638877
+      },
+      "deadline_success": {
+        "mean_over_training_seeds": 0.9936615744224625,
+        "min": 0.9918592753600721,
+        "max": 0.9945872451653706
+      },
+      "queue_mbit": {
+        "mean_over_training_seeds": 5.162555555555556,
+        "min": 5.146,
+        "max": 5.190333333333333
+      },
+      "queue_growth_mbit": {
+        "mean_over_training_seeds": 0.04922222222222222,
+        "min": 0.048666666666666664,
+        "max": 0.049666666666666665
+      },
+      "latency_s": {
+        "mean_over_training_seeds": 0.23859163957204765,
+        "min": 0.22735017014637374,
+        "max": 0.25330969077618837
+      },
+      "completed_subtasks": {
+        "mean_over_training_seeds": 537.8666666666667,
+        "min": 537.8,
+        "max": 537.95
+      },
+      "attempted_subtasks": {
+        "mean_over_training_seeds": 541.3166666666666,
+        "min": 540.75,
+        "max": 542.3
+      }
+    },
+    "random": {
+      "reward": {
+        "mean_over_training_seeds": 0.36732132966785513,
+        "min": 0.36732132966785513,
+        "max": 0.36732132966785513
+      },
+      "energy_j_per_slot": {
+        "mean_over_training_seeds": 7.784388475750575,
+        "min": 7.784388475750575,
+        "max": 7.784388475750575
+      },
+      "energy_j_per_completed_mbit": {
+        "mean_over_training_seeds": 0.3859737844215798,
+        "min": 0.3859737844215798,
+        "max": 0.3859737844215798
+      },
+      "deadline_success": {
+        "mean_over_training_seeds": 0.7989381907230294,
+        "min": 0.7989381907230294,
+        "max": 0.7989381907230294
+      },
+      "queue_mbit": {
+        "mean_over_training_seeds": 10.376333333333331,
+        "min": 10.376333333333331,
+        "max": 10.376333333333331
+      },
+      "queue_growth_mbit": {
+        "mean_over_training_seeds": 0.27433333333333343,
+        "min": 0.27433333333333343,
+        "max": 0.27433333333333343
+      },
+      "latency_s": {
+        "mean_over_training_seeds": 0.5436065398635522,
+        "min": 0.5436065398635522,
+        "max": 0.5436065398635522
+      },
+      "completed_subtasks": {
+        "mean_over_training_seeds": 504.1,
+        "min": 504.1,
+        "max": 504.1
+      },
+      "attempted_subtasks": {
+        "mean_over_training_seeds": 631.55,
+        "min": 631.55,
+        "max": 631.55
+      }
+    },
+    "local": {
+      "reward": {
+        "mean_over_training_seeds": -0.07193470822343137,
+        "min": -0.07193470822343137,
+        "max": -0.07193470822343137
+      },
+      "energy_j_per_slot": {
+        "mean_over_training_seeds": 10.845678411183762,
+        "min": 10.845678411183762,
+        "max": 10.845678411183762
+      },
+      "energy_j_per_completed_mbit": {
+        "mean_over_training_seeds": 2.111474845792609,
+        "min": 2.111474845792609,
+        "max": 2.111474845792609
+      },
+      "deadline_success": {
+        "mean_over_training_seeds": 0.2282704974954033,
+        "min": 0.2282704974954033,
+        "max": 0.2282704974954033
+      },
+      "queue_mbit": {
+        "mean_over_training_seeds": 56.428,
+        "min": 56.428,
+        "max": 56.428
+      },
+      "queue_growth_mbit": {
+        "mean_over_training_seeds": 2.596333333333334,
+        "min": 2.596333333333334,
+        "max": 2.596333333333334
+      },
+      "latency_s": {
+        "mean_over_training_seeds": 1.3506856610149032,
+        "min": 1.3506856610149032,
+        "max": 1.3506856610149032
+      },
+      "completed_subtasks": {
+        "mean_over_training_seeds": 155.8,
+        "min": 155.8,
+        "max": 155.8
+      },
+      "attempted_subtasks": {
+        "mean_over_training_seeds": 687.95,
+        "min": 687.95,
+        "max": 687.95
+      }
+    },
+    "mec_first": {
+      "reward": {
+        "mean_over_training_seeds": 0.17774725063968078,
+        "min": 0.17774725063968078,
+        "max": 0.17774725063968078
+      },
+      "energy_j_per_slot": {
+        "mean_over_training_seeds": 8.171053921225115,
+        "min": 8.171053921225115,
+        "max": 8.171053921225115
+      },
+      "energy_j_per_completed_mbit": {
+        "mean_over_training_seeds": 0.693315666066636,
+        "min": 0.693315666066636,
+        "max": 0.693315666066636
+      },
+      "deadline_success": {
+        "mean_over_training_seeds": 0.46774011053536285,
+        "min": 0.46774011053536285,
+        "max": 0.46774011053536285
+      },
+      "queue_mbit": {
+        "mean_over_training_seeds": 36.19266666666665,
+        "min": 36.19266666666665,
+        "max": 36.19266666666665
+      },
+      "queue_growth_mbit": {
+        "mean_over_training_seeds": 1.598666666666667,
+        "min": 1.598666666666667,
+        "max": 1.598666666666667
+      },
+      "latency_s": {
+        "mean_over_training_seeds": 0.9810405633072531,
+        "min": 0.9810405633072531,
+        "max": 0.9810405633072531
+      },
+      "completed_subtasks": {
+        "mean_over_training_seeds": 305.45,
+        "min": 305.45,
+        "max": 305.45
+      },
+      "attempted_subtasks": {
+        "mean_over_training_seeds": 656.85,
+        "min": 656.85,
+        "max": 656.85
+      }
+    },
+    "matching": {
+      "reward": {
+        "mean_over_training_seeds": 0.9801613939499451,
+        "min": 0.9801613939499451,
+        "max": 0.9801613939499451
+      },
+      "energy_j_per_slot": {
+        "mean_over_training_seeds": 4.503160785289316,
+        "min": 4.503160785289316,
+        "max": 4.503160785289316
+      },
+      "energy_j_per_completed_mbit": {
+        "mean_over_training_seeds": 0.20904969969614404,
+        "min": 0.20904969969614404,
+        "max": 0.20904969969614404
+      },
+      "deadline_success": {
+        "mean_over_training_seeds": 0.9928433998143464,
+        "min": 0.9928433998143464,
+        "max": 0.9928433998143464
+      },
+      "queue_mbit": {
+        "mean_over_training_seeds": 5.192333333333332,
+        "min": 5.192333333333332,
+        "max": 5.192333333333332
+      },
+      "queue_growth_mbit": {
+        "mean_over_training_seeds": 0.05066666666666667,
+        "min": 0.05066666666666667,
+        "max": 0.05066666666666667
+      },
+      "latency_s": {
+        "mean_over_training_seeds": 0.27406958857736685,
+        "min": 0.27406958857736685,
+        "max": 0.27406958857736685
+      },
+      "completed_subtasks": {
+        "mean_over_training_seeds": 537.65,
+        "min": 537.65,
+        "max": 537.65
+      },
+      "attempted_subtasks": {
+        "mean_over_training_seeds": 541.5,
+        "min": 541.5,
+        "max": 541.5
+      }
+    }
+  },
+  "note": "Each run uses the same 20 paired test traffic seeds. Ranges are over training seeds; these are not 60 independent traffic scenarios."
+}

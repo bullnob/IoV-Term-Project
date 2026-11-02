@@ -1,0 +1,1538 @@
+[
+  {
+    "stage": "untrained",
+    "episode": 0,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.2168540732785913,
+          "energy_j_per_slot": 6.758428801626664,
+          "energy_j_per_completed_mbit": 0.42346045122974085,
+          "deadline_success": 0.6234375,
+          "queue_mbit": 24.32,
+          "queue_growth_mbit": 1.0733333333333333,
+          "latency_s": 0.8547241794896617,
+          "completed_subtasks": 399,
+          "attempted_subtasks": 640
+        },
+        {
+          "seed": 200001,
+          "reward": 0.26803364095686344,
+          "energy_j_per_slot": 7.276487548574001,
+          "energy_j_per_completed_mbit": 0.4060539926659599,
+          "deadline_success": 0.691358024691358,
+          "queue_mbit": 20.433333333333334,
+          "queue_growth_mbit": 0.78,
+          "latency_s": 0.6767679834943401,
+          "completed_subtasks": 448,
+          "attempted_subtasks": 648
+        },
+        {
+          "seed": 200002,
+          "reward": 0.004509844288867632,
+          "energy_j_per_slot": 7.851046823553837,
+          "energy_j_per_completed_mbit": 0.49315620750966316,
+          "deadline_success": 0.581021897810219,
+          "queue_mbit": 25.580000000000002,
+          "queue_growth_mbit": 1.04,
+          "latency_s": 0.8895668725274775,
+          "completed_subtasks": 398,
+          "attempted_subtasks": 685
+        },
+        {
+          "seed": 200003,
+          "reward": -0.1178935249743408,
+          "energy_j_per_slot": 9.083284066642848,
+          "energy_j_per_completed_mbit": 0.6881275808062763,
+          "deadline_success": 0.4874446085672083,
+          "queue_mbit": 30.839999999999996,
+          "queue_growth_mbit": 1.4,
+          "latency_s": 0.9348681806412378,
+          "completed_subtasks": 330,
+          "attempted_subtasks": 677
+        },
+        {
+          "seed": 200004,
+          "reward": 0.016869615835173414,
+          "energy_j_per_slot": 7.4031738727959535,
+          "energy_j_per_completed_mbit": 0.5112689138671238,
+          "deadline_success": 0.5323529411764706,
+          "queue_mbit": 28.506666666666668,
+          "queue_growth_mbit": 1.2466666666666666,
+          "latency_s": 0.8838716992291451,
+          "completed_subtasks": 362,
+          "attempted_subtasks": 680
+        },
+        {
+          "seed": 200005,
+          "reward": 0.06076110986985288,
+          "energy_j_per_slot": 8.894483996481544,
+          "energy_j_per_completed_mbit": 0.644527825831996,
+          "deadline_success": 0.518796992481203,
+          "queue_mbit": 33.5,
+          "queue_growth_mbit": 1.4333333333333333,
+          "latency_s": 0.9589265495080032,
+          "completed_subtasks": 345,
+          "attempted_subtasks": 665
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.07485579320916798,
+          "std": 0.14362666984769584,
+          "ci95": 0.1149252711634654
+        },
+        "energy_j_per_slot": {
+          "mean": 7.877817518279142,
+          "std": 0.9303109607924113,
+          "ci95": 0.7444038043128598
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.5277658286517933,
+          "std": 0.11533656175799516,
+          "ci95": 0.09228847016473532
+        },
+        "deadline_success": {
+          "mean": 0.5724019941210764,
+          "std": 0.07553097776632416,
+          "ci95": 0.060437369398325134
+        },
+        "queue_mbit": {
+          "mean": 27.196666666666662,
+          "std": 4.71918401609619,
+          "ci95": 3.7761336616330885
+        },
+        "queue_growth_mbit": {
+          "mean": 1.162222222222222,
+          "std": 0.24742825372366173,
+          "ci95": 0.19798383672648195
+        },
+        "latency_s": {
+          "mean": 0.866454244148311,
+          "std": 0.10018745150453023,
+          "ci95": 0.08016665737320508
+        },
+        "completed_subtasks": {
+          "mean": 380.3333333333333,
+          "std": 43.2604515310077,
+          "ci95": 34.615570549168254
+        },
+        "attempted_subtasks": {
+          "mean": 665.8333333333334,
+          "std": 18.32393698599367,
+          "ci95": 14.662203260234953
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "warmstart",
+    "episode": 0,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.6028467301426571,
+          "energy_j_per_slot": 5.824943986419235,
+          "energy_j_per_completed_mbit": 0.27476150879336014,
+          "deadline_success": 0.8359621451104101,
+          "queue_mbit": 9.653333333333332,
+          "queue_growth_mbit": 0.2,
+          "latency_s": 0.5035204229855864,
+          "completed_subtasks": 530,
+          "attempted_subtasks": 634
+        },
+        {
+          "seed": 200001,
+          "reward": 0.5785377940024308,
+          "energy_j_per_slot": 5.102483375291319,
+          "energy_j_per_completed_mbit": 0.2541077378133127,
+          "deadline_success": 0.813614262560778,
+          "queue_mbit": 15.559999999999999,
+          "queue_growth_mbit": 0.42000000000000004,
+          "latency_s": 0.4370217498944167,
+          "completed_subtasks": 502,
+          "attempted_subtasks": 617
+        },
+        {
+          "seed": 200002,
+          "reward": 0.6333257644245595,
+          "energy_j_per_slot": 4.882083829748292,
+          "energy_j_per_completed_mbit": 0.24757017392232716,
+          "deadline_success": 0.8095238095238095,
+          "queue_mbit": 14.926666666666668,
+          "queue_growth_mbit": 0.4066666666666666,
+          "latency_s": 0.4580735466960781,
+          "completed_subtasks": 493,
+          "attempted_subtasks": 609
+        },
+        {
+          "seed": 200003,
+          "reward": 0.40160145091314786,
+          "energy_j_per_slot": 6.271590613141491,
+          "energy_j_per_completed_mbit": 0.33078009562982547,
+          "deadline_success": 0.7620578778135049,
+          "queue_mbit": 14.813333333333333,
+          "queue_growth_mbit": 0.44000000000000006,
+          "latency_s": 0.5298820047899925,
+          "completed_subtasks": 474,
+          "attempted_subtasks": 622
+        },
+        {
+          "seed": 200004,
+          "reward": 0.477873290154187,
+          "energy_j_per_slot": 5.389887467152344,
+          "energy_j_per_completed_mbit": 0.2722165387450679,
+          "deadline_success": 0.7686335403726708,
+          "queue_mbit": 14.813333333333333,
+          "queue_growth_mbit": 0.36,
+          "latency_s": 0.5390793618346883,
+          "completed_subtasks": 495,
+          "attempted_subtasks": 644
+        },
+        {
+          "seed": 200005,
+          "reward": 0.57950715809412,
+          "energy_j_per_slot": 6.0054806030347105,
+          "energy_j_per_completed_mbit": 0.2926647467365844,
+          "deadline_success": 0.839607201309329,
+          "queue_mbit": 12.68,
+          "queue_growth_mbit": 0.31333333333333335,
+          "latency_s": 0.49862982145062124,
+          "completed_subtasks": 513,
+          "attempted_subtasks": 611
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.5456153646218503,
+          "std": 0.08778391589453459,
+          "ci95": 0.07024176184456787
+        },
+        "energy_j_per_slot": {
+          "mean": 5.579411645797898,
+          "std": 0.5423243829998576,
+          "ci95": 0.4339498843836599
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.27868346694007967,
+          "std": 0.030128860868244595,
+          "ci95": 0.024108109648445494
+        },
+        "deadline_success": {
+          "mean": 0.8048998061150837,
+          "std": 0.032916464558621225,
+          "ci95": 0.026338657152976043
+        },
+        "queue_mbit": {
+          "mean": 13.74111111111111,
+          "std": 2.2293094762147185,
+          "ci95": 1.7838190938559157
+        },
+        "queue_growth_mbit": {
+          "mean": 0.3566666666666667,
+          "std": 0.08931840671316175,
+          "ci95": 0.07146961022130446
+        },
+        "latency_s": {
+          "mean": 0.49436781794189727,
+          "std": 0.039920320949420995,
+          "ci95": 0.031942909453444926
+        },
+        "completed_subtasks": {
+          "mean": 501.1666666666667,
+          "std": 19.051684090039565,
+          "ci95": 15.244522222023813
+        },
+        "attempted_subtasks": {
+          "mean": 622.8333333333334,
+          "std": 13.70279776785262,
+          "ci95": 10.964521776063826
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "RL",
+    "episode": 10,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.8575915720954074,
+          "energy_j_per_slot": 6.085203248138194,
+          "energy_j_per_completed_mbit": 0.2711766153359267,
+          "deadline_success": 0.9929203539823008,
+          "queue_mbit": 5.473333333333334,
+          "queue_growth_mbit": -0.006666666666666666,
+          "latency_s": 0.24057964628639955,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 565
+        },
+        {
+          "seed": 200001,
+          "reward": 0.9140531289619718,
+          "energy_j_per_slot": 5.1828571811378215,
+          "energy_j_per_completed_mbit": 0.23096511502396708,
+          "deadline_success": 0.9946808510638298,
+          "queue_mbit": 5.5600000000000005,
+          "queue_growth_mbit": 0.02666666666666668,
+          "latency_s": 0.21725483425337222,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 564
+        },
+        {
+          "seed": 200002,
+          "reward": 0.8887799141849244,
+          "energy_j_per_slot": 5.542387621059478,
+          "energy_j_per_completed_mbit": 0.25284615059577914,
+          "deadline_success": 0.9838420107719928,
+          "queue_mbit": 5.513333333333334,
+          "queue_growth_mbit": 0.039999999999999994,
+          "latency_s": 0.24278970478529063,
+          "completed_subtasks": 548,
+          "attempted_subtasks": 557
+        },
+        {
+          "seed": 200003,
+          "reward": 0.8812575440418081,
+          "energy_j_per_slot": 5.744778107864791,
+          "energy_j_per_completed_mbit": 0.2679467401056339,
+          "deadline_success": 0.9944341372912802,
+          "queue_mbit": 4.66,
+          "queue_growth_mbit": 0.02666666666666665,
+          "latency_s": 0.24641683008751075,
+          "completed_subtasks": 536,
+          "attempted_subtasks": 539
+        },
+        {
+          "seed": 200004,
+          "reward": 0.8718299103354988,
+          "energy_j_per_slot": 5.704743175486403,
+          "energy_j_per_completed_mbit": 0.25977883312779615,
+          "deadline_success": 0.9838709677419355,
+          "queue_mbit": 5.4799999999999995,
+          "queue_growth_mbit": -1.5265566588595904e-17,
+          "latency_s": 0.2449505017067576,
+          "completed_subtasks": 549,
+          "attempted_subtasks": 558
+        },
+        {
+          "seed": 200005,
+          "reward": 0.8689667300145478,
+          "energy_j_per_slot": 5.801381342630621,
+          "energy_j_per_completed_mbit": 0.2608534776362689,
+          "deadline_success": 0.9858156028368794,
+          "queue_mbit": 5.113333333333333,
+          "queue_growth_mbit": 0.026666666666666672,
+          "latency_s": 0.26172985218268086,
+          "completed_subtasks": 556,
+          "attempted_subtasks": 564
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.8804131332723597,
+          "std": 0.019636093707564216,
+          "ci95": 0.015712147307502568
+        },
+        "energy_j_per_slot": {
+          "mean": 5.676891779386218,
+          "std": 0.2999205606836076,
+          "ci95": 0.23998643010113035
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.25726115530422866,
+          "std": 0.014408603213352347,
+          "ci95": 0.01152928375445351
+        },
+        "deadline_success": {
+          "mean": 0.9892606539480364,
+          "std": 0.005288017765584227,
+          "ci95": 0.004231295456974904
+        },
+        "queue_mbit": {
+          "mean": 5.3,
+          "std": 0.3521363372331802,
+          "ci95": 0.2817677530638783
+        },
+        "queue_growth_mbit": {
+          "mean": 0.018888888888888886,
+          "std": 0.018094402654064253,
+          "ci95": 0.014478537542953572
+        },
+        "latency_s": {
+          "mean": 0.24228689488366864,
+          "std": 0.01436628921883473,
+          "ci95": 0.011495425507241462
+        },
+        "completed_subtasks": {
+          "mean": 551.8333333333334,
+          "std": 9.579491983746669,
+          "ci95": 7.665190002718642
+        },
+        "attempted_subtasks": {
+          "mean": 557.8333333333334,
+          "std": 9.826834010334492,
+          "ci95": 7.86310484336676
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "RL",
+    "episode": 20,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.8346808851389262,
+          "energy_j_per_slot": 6.24143188779479,
+          "energy_j_per_completed_mbit": 0.278138675926684,
+          "deadline_success": 0.9859402460456942,
+          "queue_mbit": 5.553333333333333,
+          "queue_growth_mbit": -0.006666666666666673,
+          "latency_s": 0.2549503321886369,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 569
+        },
+        {
+          "seed": 200001,
+          "reward": 0.9178893045836138,
+          "energy_j_per_slot": 5.220076577822595,
+          "energy_j_per_completed_mbit": 0.2330391329385087,
+          "deadline_success": 0.9911504424778761,
+          "queue_mbit": 5.633333333333334,
+          "queue_growth_mbit": 0.03333333333333333,
+          "latency_s": 0.22163478432055075,
+          "completed_subtasks": 560,
+          "attempted_subtasks": 565
+        },
+        {
+          "seed": 200002,
+          "reward": 0.875324059516914,
+          "energy_j_per_slot": 5.737696355600426,
+          "energy_j_per_completed_mbit": 0.26175622060220927,
+          "deadline_success": 0.9856115107913669,
+          "queue_mbit": 5.4799999999999995,
+          "queue_growth_mbit": 0.039999999999999994,
+          "latency_s": 0.24459463621263713,
+          "completed_subtasks": 548,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200003,
+          "reward": 0.8680686420999448,
+          "energy_j_per_slot": 5.827745282205618,
+          "energy_j_per_completed_mbit": 0.27181647771481426,
+          "deadline_success": 0.9925925925925926,
+          "queue_mbit": 4.66,
+          "queue_growth_mbit": 0.02666666666666665,
+          "latency_s": 0.24490144884490847,
+          "completed_subtasks": 536,
+          "attempted_subtasks": 540
+        },
+        {
+          "seed": 200004,
+          "reward": 0.8642743347603986,
+          "energy_j_per_slot": 5.858659023777827,
+          "energy_j_per_completed_mbit": 0.26630268289899217,
+          "deadline_success": 0.9892086330935251,
+          "queue_mbit": 5.3133333333333335,
+          "queue_growth_mbit": -0.006666666666666694,
+          "latency_s": 0.2501731348242347,
+          "completed_subtasks": 550,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200005,
+          "reward": 0.8603679487515702,
+          "energy_j_per_slot": 5.941385935449977,
+          "energy_j_per_completed_mbit": 0.2671486481767076,
+          "deadline_success": 0.984070796460177,
+          "queue_mbit": 5.12,
+          "queue_growth_mbit": 0.026666666666666672,
+          "latency_s": 0.263225168498747,
+          "completed_subtasks": 556,
+          "attempted_subtasks": 565
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.870100862475228,
+          "std": 0.027197057691612563,
+          "ci95": 0.021762178524165857
+        },
+        "energy_j_per_slot": {
+          "mean": 5.804499177108539,
+          "std": 0.33440521532651724,
+          "ci95": 0.26757990065933135
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.26303363970965266,
+          "std": 0.01571128598569005,
+          "ci95": 0.012571647063507751
+        },
+        "deadline_success": {
+          "mean": 0.9880957035768719,
+          "std": 0.003400268840675469,
+          "ci95": 0.0027207817249936712
+        },
+        "queue_mbit": {
+          "mean": 5.293333333333334,
+          "std": 0.3604441704342018,
+          "ci95": 0.28841540411935923
+        },
+        "queue_growth_mbit": {
+          "mean": 0.01888888888888888,
+          "std": 0.02040334032202317,
+          "ci95": 0.016326072460187992
+        },
+        "latency_s": {
+          "mean": 0.24657991748161914,
+          "std": 0.014064549063277884,
+          "ci95": 0.011253983098007512
+        },
+        "completed_subtasks": {
+          "mean": 551.8333333333334,
+          "std": 9.347013783378447,
+          "ci95": 7.4791687000925755
+        },
+        "attempted_subtasks": {
+          "mean": 558.5,
+          "std": 10.483320084782301,
+          "ci95": 8.388403105875794
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "RL",
+    "episode": 30,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.8496278981627168,
+          "energy_j_per_slot": 6.14175008405784,
+          "energy_j_per_completed_mbit": 0.27369652781006415,
+          "deadline_success": 0.9894179894179894,
+          "queue_mbit": 5.533333333333333,
+          "queue_growth_mbit": -0.006666666666666672,
+          "latency_s": 0.2465667446750182,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 567
+        },
+        {
+          "seed": 200001,
+          "reward": 0.9192988397675685,
+          "energy_j_per_slot": 5.193385827978663,
+          "energy_j_per_completed_mbit": 0.2318475816061903,
+          "deadline_success": 0.9911504424778761,
+          "queue_mbit": 5.633333333333334,
+          "queue_growth_mbit": 0.03333333333333333,
+          "latency_s": 0.21657303436858952,
+          "completed_subtasks": 560,
+          "attempted_subtasks": 565
+        },
+        {
+          "seed": 200002,
+          "reward": 0.879262659340944,
+          "energy_j_per_slot": 5.690929444386626,
+          "energy_j_per_completed_mbit": 0.2596226936307767,
+          "deadline_success": 0.9856115107913669,
+          "queue_mbit": 5.4799999999999995,
+          "queue_growth_mbit": 0.039999999999999994,
+          "latency_s": 0.23522442355099688,
+          "completed_subtasks": 548,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200003,
+          "reward": 0.8762536161321389,
+          "energy_j_per_slot": 5.771817425397484,
+          "energy_j_per_completed_mbit": 0.2692079023039871,
+          "deadline_success": 0.9944341372912802,
+          "queue_mbit": 4.653333333333333,
+          "queue_growth_mbit": 0.02666666666666665,
+          "latency_s": 0.24113129527004779,
+          "completed_subtasks": 536,
+          "attempted_subtasks": 539
+        },
+        {
+          "seed": 200004,
+          "reward": 0.8758352133452781,
+          "energy_j_per_slot": 5.7397873368067,
+          "energy_j_per_completed_mbit": 0.2608994244003045,
+          "deadline_success": 0.990990990990991,
+          "queue_mbit": 5.293333333333334,
+          "queue_growth_mbit": -0.006666666666666694,
+          "latency_s": 0.24550869357862964,
+          "completed_subtasks": 550,
+          "attempted_subtasks": 555
+        },
+        {
+          "seed": 200005,
+          "reward": 0.8581914524566793,
+          "energy_j_per_slot": 5.971052984137694,
+          "energy_j_per_completed_mbit": 0.26848259820763015,
+          "deadline_success": 0.984070796460177,
+          "queue_mbit": 5.12,
+          "queue_growth_mbit": 0.026666666666666672,
+          "latency_s": 0.25125521118845173,
+          "completed_subtasks": 556,
+          "attempted_subtasks": 565
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.8764116132008876,
+          "std": 0.024071317019775062,
+          "ci95": 0.019261065084172246
+        },
+        "energy_j_per_slot": {
+          "mean": 5.751453850460834,
+          "std": 0.32131256858220647,
+          "ci95": 0.25710360138334754
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.26062612132649216,
+          "std": 0.015069788515563363,
+          "ci95": 0.012058342182296171
+        },
+        "deadline_success": {
+          "mean": 0.9892793112382802,
+          "std": 0.0038367650248078236,
+          "ci95": 0.0030700514140870965
+        },
+        "queue_mbit": {
+          "mean": 5.285555555555556,
+          "std": 0.3598127084820451,
+          "ci95": 0.28791012932493576
+        },
+        "queue_growth_mbit": {
+          "mean": 0.01888888888888888,
+          "std": 0.02040334032202317,
+          "ci95": 0.016326072460187992
+        },
+        "latency_s": {
+          "mean": 0.23937656710528898,
+          "std": 0.012415508738067172,
+          "ci95": 0.00993447602640795
+        },
+        "completed_subtasks": {
+          "mean": 551.8333333333334,
+          "std": 9.347013783378447,
+          "ci95": 7.4791687000925755
+        },
+        "attempted_subtasks": {
+          "mean": 557.8333333333334,
+          "std": 10.515068552637528,
+          "ci95": 8.413807171020212
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "RL",
+    "episode": 40,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.8484546917611014,
+          "energy_j_per_slot": 6.223488662090238,
+          "energy_j_per_completed_mbit": 0.27733906693806765,
+          "deadline_success": 0.991166077738516,
+          "queue_mbit": 5.526666666666666,
+          "queue_growth_mbit": -0.0066666666666666706,
+          "latency_s": 0.24333096028520357,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 566
+        },
+        {
+          "seed": 200001,
+          "reward": 0.9085516380028482,
+          "energy_j_per_slot": 5.287066587115438,
+          "energy_j_per_completed_mbit": 0.23602975835336776,
+          "deadline_success": 0.9893992932862191,
+          "queue_mbit": 5.6466666666666665,
+          "queue_growth_mbit": 0.03333333333333334,
+          "latency_s": 0.216130734008919,
+          "completed_subtasks": 560,
+          "attempted_subtasks": 566
+        },
+        {
+          "seed": 200002,
+          "reward": 0.8725793055687785,
+          "energy_j_per_slot": 5.799074263544393,
+          "energy_j_per_completed_mbit": 0.26455630764344856,
+          "deadline_success": 0.9856115107913669,
+          "queue_mbit": 5.4799999999999995,
+          "queue_growth_mbit": 0.039999999999999994,
+          "latency_s": 0.23151863777455386,
+          "completed_subtasks": 548,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200003,
+          "reward": 0.8734531396681279,
+          "energy_j_per_slot": 5.891880097653877,
+          "energy_j_per_completed_mbit": 0.27480784037564726,
+          "deadline_success": 0.9962825278810409,
+          "queue_mbit": 4.6466666666666665,
+          "queue_growth_mbit": 0.026666666666666655,
+          "latency_s": 0.23592920847837306,
+          "completed_subtasks": 536,
+          "attempted_subtasks": 538
+        },
+        {
+          "seed": 200004,
+          "reward": 0.8674503980327911,
+          "energy_j_per_slot": 5.855610984331046,
+          "energy_j_per_completed_mbit": 0.2661641356514112,
+          "deadline_success": 0.990990990990991,
+          "queue_mbit": 5.3,
+          "queue_growth_mbit": -0.006666666666666693,
+          "latency_s": 0.2426091666778817,
+          "completed_subtasks": 550,
+          "attempted_subtasks": 555
+        },
+        {
+          "seed": 200005,
+          "reward": 0.8516878888580152,
+          "energy_j_per_slot": 6.063919013632562,
+          "energy_j_per_completed_mbit": 0.2721687169493968,
+          "deadline_success": 0.9858407079646018,
+          "queue_mbit": 5.1,
+          "queue_growth_mbit": 0.020000000000000007,
+          "latency_s": 0.245370284989745,
+          "completed_subtasks": 557,
+          "attempted_subtasks": 565
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.8703628436486103,
+          "std": 0.021494418076254636,
+          "ci95": 0.01719911649092716
+        },
+        "energy_j_per_slot": {
+          "mean": 5.853506601394593,
+          "std": 0.3182622287622297,
+          "ci95": 0.2546628211903424
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.2651776376518899,
+          "std": 0.01510281068815378,
+          "ci95": 0.012084765423490754
+        },
+        "deadline_success": {
+          "mean": 0.9898818514421226,
+          "std": 0.003966045860757805,
+          "ci95": 0.003173497627409082
+        },
+        "queue_mbit": {
+          "mean": 5.283333333333332,
+          "std": 0.3658232724508743,
+          "ci95": 0.29271958215633226
+        },
+        "queue_growth_mbit": {
+          "mean": 0.01777777777777777,
+          "std": 0.0200739374055755,
+          "ci95": 0.016062495232261394
+        },
+        "latency_s": {
+          "mean": 0.23581483203577935,
+          "std": 0.010953501088491942,
+          "ci95": 0.008764626264182961
+        },
+        "completed_subtasks": {
+          "mean": 552.0,
+          "std": 9.444575162494075,
+          "ci95": 7.55723406192151
+        },
+        "attempted_subtasks": {
+          "mean": 557.6666666666666,
+          "std": 10.85664159243855,
+          "ci95": 8.687122525772143
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "RL",
+    "episode": 50,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.8445620752021166,
+          "energy_j_per_slot": 6.2916279348726505,
+          "energy_j_per_completed_mbit": 0.2803755764203498,
+          "deadline_success": 0.991166077738516,
+          "queue_mbit": 5.526666666666666,
+          "queue_growth_mbit": -0.0066666666666666706,
+          "latency_s": 0.24030417121165817,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 566
+        },
+        {
+          "seed": 200001,
+          "reward": 0.9085451897342633,
+          "energy_j_per_slot": 5.285336445737534,
+          "energy_j_per_completed_mbit": 0.23595251989899707,
+          "deadline_success": 0.9893992932862191,
+          "queue_mbit": 5.6466666666666665,
+          "queue_growth_mbit": 0.03333333333333334,
+          "latency_s": 0.21464922613529752,
+          "completed_subtasks": 560,
+          "attempted_subtasks": 566
+        },
+        {
+          "seed": 200002,
+          "reward": 0.8694381437628109,
+          "energy_j_per_slot": 5.84261733225547,
+          "energy_j_per_completed_mbit": 0.266542761508005,
+          "deadline_success": 0.9856115107913669,
+          "queue_mbit": 5.4799999999999995,
+          "queue_growth_mbit": 0.039999999999999994,
+          "latency_s": 0.22980032640358122,
+          "completed_subtasks": 548,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200003,
+          "reward": 0.8731671525669787,
+          "energy_j_per_slot": 5.901626137042695,
+          "energy_j_per_completed_mbit": 0.2752624131083346,
+          "deadline_success": 0.9944341372912802,
+          "queue_mbit": 4.66,
+          "queue_growth_mbit": 0.026666666666666655,
+          "latency_s": 0.2339016228850884,
+          "completed_subtasks": 536,
+          "attempted_subtasks": 539
+        },
+        {
+          "seed": 200004,
+          "reward": 0.8638245301052363,
+          "energy_j_per_slot": 5.908006653798884,
+          "energy_j_per_completed_mbit": 0.26854575699085836,
+          "deadline_success": 0.990990990990991,
+          "queue_mbit": 5.3,
+          "queue_growth_mbit": -0.006666666666666693,
+          "latency_s": 0.24221808448779214,
+          "completed_subtasks": 550,
+          "attempted_subtasks": 555
+        },
+        {
+          "seed": 200005,
+          "reward": 0.8549237857679131,
+          "energy_j_per_slot": 6.00978205416213,
+          "energy_j_per_completed_mbit": 0.26973887137172936,
+          "deadline_success": 0.9858407079646018,
+          "queue_mbit": 5.1,
+          "queue_growth_mbit": 0.020000000000000007,
+          "latency_s": 0.24264673966579603,
+          "completed_subtasks": 557,
+          "attempted_subtasks": 565
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.8690768128565532,
+          "std": 0.02192478608547359,
+          "ci95": 0.017543482618833754
+        },
+        "energy_j_per_slot": {
+          "mean": 5.873166092978227,
+          "std": 0.3293250654642426,
+          "ci95": 0.2635149341660466
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.26606964988304566,
+          "std": 0.015595038157280009,
+          "ci95": 0.012478629428159421
+        },
+        "deadline_success": {
+          "mean": 0.9895737863438292,
+          "std": 0.003400965209941666,
+          "ci95": 0.002721338936456086
+        },
+        "queue_mbit": {
+          "mean": 5.285555555555555,
+          "std": 0.3611934948760022,
+          "ci95": 0.28901498854720015
+        },
+        "queue_growth_mbit": {
+          "mean": 0.01777777777777777,
+          "std": 0.0200739374055755,
+          "ci95": 0.016062495232261394
+        },
+        "latency_s": {
+          "mean": 0.23392002846486892,
+          "std": 0.010715471123752799,
+          "ci95": 0.00857416262486246
+        },
+        "completed_subtasks": {
+          "mean": 552.0,
+          "std": 9.444575162494075,
+          "ci95": 7.55723406192151
+        },
+        "attempted_subtasks": {
+          "mean": 557.8333333333334,
+          "std": 10.496030995889193,
+          "ci95": 8.398573953025863
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "RL",
+    "episode": 60,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.8172022579742949,
+          "energy_j_per_slot": 6.417971014860727,
+          "energy_j_per_completed_mbit": 0.286005838451904,
+          "deadline_success": 0.9824868651488616,
+          "queue_mbit": 5.58,
+          "queue_growth_mbit": -0.006666666666666668,
+          "latency_s": 0.2515162938178298,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 571
+        },
+        {
+          "seed": 200001,
+          "reward": 0.9076893330528369,
+          "energy_j_per_slot": 5.2814272908888835,
+          "energy_j_per_completed_mbit": 0.23577800405753946,
+          "deadline_success": 0.9893992932862191,
+          "queue_mbit": 5.6466666666666665,
+          "queue_growth_mbit": 0.03333333333333334,
+          "latency_s": 0.22007575023926967,
+          "completed_subtasks": 560,
+          "attempted_subtasks": 566
+        },
+        {
+          "seed": 200002,
+          "reward": 0.8588369608220205,
+          "energy_j_per_slot": 5.817950666938688,
+          "energy_j_per_completed_mbit": 0.26541745743333434,
+          "deadline_success": 0.9803220035778175,
+          "queue_mbit": 5.5,
+          "queue_growth_mbit": 0.039999999999999994,
+          "latency_s": 0.23912731693731545,
+          "completed_subtasks": 548,
+          "attempted_subtasks": 559
+        },
+        {
+          "seed": 200003,
+          "reward": 0.8807127140864062,
+          "energy_j_per_slot": 5.790007732795262,
+          "energy_j_per_completed_mbit": 0.2700563308206745,
+          "deadline_success": 0.9944341372912802,
+          "queue_mbit": 4.66,
+          "queue_growth_mbit": 0.026666666666666655,
+          "latency_s": 0.2357595943731905,
+          "completed_subtasks": 536,
+          "attempted_subtasks": 539
+        },
+        {
+          "seed": 200004,
+          "reward": 0.8495995518064265,
+          "energy_j_per_slot": 5.948484279905911,
+          "energy_j_per_completed_mbit": 0.2703856490866324,
+          "deadline_success": 0.985663082437276,
+          "queue_mbit": 5.346666666666667,
+          "queue_growth_mbit": -0.006666666666666691,
+          "latency_s": 0.24578808326386065,
+          "completed_subtasks": 550,
+          "attempted_subtasks": 558
+        },
+        {
+          "seed": 200005,
+          "reward": 0.8524513108325553,
+          "energy_j_per_slot": 5.993943391491881,
+          "energy_j_per_completed_mbit": 0.269027979869474,
+          "deadline_success": 0.9840989399293286,
+          "queue_mbit": 5.106666666666667,
+          "queue_growth_mbit": 0.020000000000000007,
+          "latency_s": 0.2474704504579829,
+          "completed_subtasks": 557,
+          "attempted_subtasks": 566
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.8610820214290902,
+          "std": 0.03064120037796749,
+          "ci95": 0.024518066637249168
+        },
+        "energy_j_per_slot": {
+          "mean": 5.87496406281356,
+          "std": 0.36801409154860726,
+          "ci95": 0.2944726025330078
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.2661118766199264,
+          "std": 0.01648467936121911,
+          "ci95": 0.01319049064940275
+        },
+        "deadline_success": {
+          "mean": 0.9860673869451304,
+          "std": 0.005118045005285241,
+          "ci95": 0.004095288922892633
+        },
+        "queue_mbit": {
+          "mean": 5.3066666666666675,
+          "std": 0.37080093491431926,
+          "ci95": 0.29670254165109905
+        },
+        "queue_growth_mbit": {
+          "mean": 0.01777777777777777,
+          "std": 0.0200739374055755,
+          "ci95": 0.016062495232261394
+        },
+        "latency_s": {
+          "mean": 0.23995624818157482,
+          "std": 0.011292842157926315,
+          "ci95": 0.009036155670685253
+        },
+        "completed_subtasks": {
+          "mean": 552.0,
+          "std": 9.444575162494075,
+          "ci95": 7.55723406192151
+        },
+        "attempted_subtasks": {
+          "mean": 559.8333333333334,
+          "std": 11.303391821336932,
+          "ci95": 9.044597159507868
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "RL",
+    "episode": 70,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.8365035755300342,
+          "energy_j_per_slot": 6.365389263124856,
+          "energy_j_per_completed_mbit": 0.2836626231339062,
+          "deadline_success": 0.9894179894179894,
+          "queue_mbit": 5.533333333333333,
+          "queue_growth_mbit": -0.006666666666666672,
+          "latency_s": 0.24078174321955464,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 567
+        },
+        {
+          "seed": 200001,
+          "reward": 0.9004033811687446,
+          "energy_j_per_slot": 5.329695595066089,
+          "energy_j_per_completed_mbit": 0.2379328390654504,
+          "deadline_success": 0.9893992932862191,
+          "queue_mbit": 5.613333333333333,
+          "queue_growth_mbit": 0.03333333333333334,
+          "latency_s": 0.21639768089050784,
+          "completed_subtasks": 560,
+          "attempted_subtasks": 566
+        },
+        {
+          "seed": 200002,
+          "reward": 0.8672660826889473,
+          "energy_j_per_slot": 5.8786763716919594,
+          "energy_j_per_completed_mbit": 0.2681877906793777,
+          "deadline_success": 0.9856115107913669,
+          "queue_mbit": 5.4799999999999995,
+          "queue_growth_mbit": 0.039999999999999994,
+          "latency_s": 0.22967422303327584,
+          "completed_subtasks": 548,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200003,
+          "reward": 0.8740267667207791,
+          "energy_j_per_slot": 5.9056570887101385,
+          "energy_j_per_completed_mbit": 0.27545042391371916,
+          "deadline_success": 0.9962825278810409,
+          "queue_mbit": 4.6466666666666665,
+          "queue_growth_mbit": 0.026666666666666655,
+          "latency_s": 0.23318266271463323,
+          "completed_subtasks": 536,
+          "attempted_subtasks": 538
+        },
+        {
+          "seed": 200004,
+          "reward": 0.8574283784581752,
+          "energy_j_per_slot": 5.969140583623856,
+          "energy_j_per_completed_mbit": 0.27132457198290255,
+          "deadline_success": 0.9874326750448833,
+          "queue_mbit": 5.426666666666667,
+          "queue_growth_mbit": -0.006666666666666684,
+          "latency_s": 0.244605209833141,
+          "completed_subtasks": 550,
+          "attempted_subtasks": 557
+        },
+        {
+          "seed": 200005,
+          "reward": 0.8588902831280967,
+          "energy_j_per_slot": 6.017129073765661,
+          "energy_j_per_completed_mbit": 0.2700686298817621,
+          "deadline_success": 0.9875886524822695,
+          "queue_mbit": 5.086666666666667,
+          "queue_growth_mbit": 0.020000000000000007,
+          "latency_s": 0.24095341101231607,
+          "completed_subtasks": 557,
+          "attempted_subtasks": 564
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.8657530779491296,
+          "std": 0.021181683543000325,
+          "ci95": 0.016948876747329793
+        },
+        "energy_j_per_slot": {
+          "mean": 5.910947995997094,
+          "std": 0.33469432885029504,
+          "ci95": 0.26781123965892256
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.267771146442853,
+          "std": 0.015619947353853443,
+          "ci95": 0.01249856093651857
+        },
+        "deadline_success": {
+          "mean": 0.9892887748172949,
+          "std": 0.003709428141836565,
+          "ci95": 0.0029681606871065106
+        },
+        "queue_mbit": {
+          "mean": 5.297777777777777,
+          "std": 0.3669857197746507,
+          "ci95": 0.29364973373639686
+        },
+        "queue_growth_mbit": {
+          "mean": 0.017777777777777774,
+          "std": 0.020073937405575497,
+          "ci95": 0.01606249523226139
+        },
+        "latency_s": {
+          "mean": 0.2342658217839048,
+          "std": 0.01034998066392995,
+          "ci95": 0.008281709348271542
+        },
+        "completed_subtasks": {
+          "mean": 552.0,
+          "std": 9.444575162494075,
+          "ci95": 7.55723406192151
+        },
+        "attempted_subtasks": {
+          "mean": 558.0,
+          "std": 10.825894882179487,
+          "ci95": 8.662520033646869
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "RL",
+    "episode": 80,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.8347803312881137,
+          "energy_j_per_slot": 6.469069566495598,
+          "energy_j_per_completed_mbit": 0.28828295750871646,
+          "deadline_success": 0.991166077738516,
+          "queue_mbit": 5.526666666666666,
+          "queue_growth_mbit": -0.0066666666666666706,
+          "latency_s": 0.23788390534228082,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 566
+        },
+        {
+          "seed": 200001,
+          "reward": 0.8947149093271223,
+          "energy_j_per_slot": 5.41189912489143,
+          "energy_j_per_completed_mbit": 0.24117197526254144,
+          "deadline_success": 0.991166077738516,
+          "queue_mbit": 5.606666666666667,
+          "queue_growth_mbit": 0.02666666666666668,
+          "latency_s": 0.21175069160013896,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 566
+        },
+        {
+          "seed": 200002,
+          "reward": 0.8580419484159492,
+          "energy_j_per_slot": 6.008456234963131,
+          "energy_j_per_completed_mbit": 0.2741084048797049,
+          "deadline_success": 0.9856115107913669,
+          "queue_mbit": 5.4799999999999995,
+          "queue_growth_mbit": 0.039999999999999994,
+          "latency_s": 0.22718535853198904,
+          "completed_subtasks": 548,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200003,
+          "reward": 0.8688417535960582,
+          "energy_j_per_slot": 5.99209720177547,
+          "energy_j_per_completed_mbit": 0.2794821456051992,
+          "deadline_success": 0.9962825278810409,
+          "queue_mbit": 4.6466666666666665,
+          "queue_growth_mbit": 0.026666666666666655,
+          "latency_s": 0.23019937132794127,
+          "completed_subtasks": 536,
+          "attempted_subtasks": 538
+        },
+        {
+          "seed": 200004,
+          "reward": 0.8580143605144922,
+          "energy_j_per_slot": 6.014798378630087,
+          "energy_j_per_completed_mbit": 0.2733999263013676,
+          "deadline_success": 0.990990990990991,
+          "queue_mbit": 5.3,
+          "queue_growth_mbit": -0.006666666666666691,
+          "latency_s": 0.2391230644536661,
+          "completed_subtasks": 550,
+          "attempted_subtasks": 555
+        },
+        {
+          "seed": 200005,
+          "reward": 0.8553543703313933,
+          "energy_j_per_slot": 6.0800507399390025,
+          "energy_j_per_completed_mbit": 0.27289276211575414,
+          "deadline_success": 0.9875886524822695,
+          "queue_mbit": 5.086666666666667,
+          "queue_growth_mbit": 0.020000000000000007,
+          "latency_s": 0.2408359370130814,
+          "completed_subtasks": 557,
+          "attempted_subtasks": 564
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.8616246122455214,
+          "std": 0.01966141216536232,
+          "ci95": 0.01573240629304455
+        },
+        "energy_j_per_slot": {
+          "mean": 5.996061874449119,
+          "std": 0.33839530718468847,
+          "ci95": 0.27077263909192
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.2715563619455473,
+          "std": 0.015984402509588044,
+          "ci95": 0.012790185797306177
+        },
+        "deadline_success": {
+          "mean": 0.9904676396037834,
+          "std": 0.003658770501034491,
+          "ci95": 0.0029276261324040075
+        },
+        "queue_mbit": {
+          "mean": 5.274444444444444,
+          "std": 0.35951613573225316,
+          "ci95": 0.2876728217014583
+        },
+        "queue_growth_mbit": {
+          "mean": 0.01666666666666666,
+          "std": 0.019206480387850583,
+          "ci95": 0.01536838505696872
+        },
+        "latency_s": {
+          "mean": 0.2311630547115163,
+          "std": 0.01091500649971833,
+          "ci95": 0.008733824178067446
+        },
+        "completed_subtasks": {
+          "mean": 552.1666666666666,
+          "std": 9.621157241551906,
+          "ci95": 7.698529152449261
+        },
+        "attempted_subtasks": {
+          "mean": 557.5,
+          "std": 10.72846680565308,
+          "ci95": 8.584561336104096
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "RL",
+    "episode": 90,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.8337934915310736,
+          "energy_j_per_slot": 6.553193948843536,
+          "energy_j_per_completed_mbit": 0.29203181590211835,
+          "deadline_success": 0.9929203539823008,
+          "queue_mbit": 5.513333333333334,
+          "queue_growth_mbit": -0.00666666666666667,
+          "latency_s": 0.23213073006041615,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 565
+        },
+        {
+          "seed": 200001,
+          "reward": 0.8963996597490155,
+          "energy_j_per_slot": 5.390562785864239,
+          "energy_j_per_completed_mbit": 0.2402211580153404,
+          "deadline_success": 0.991166077738516,
+          "queue_mbit": 5.606666666666667,
+          "queue_growth_mbit": 0.02666666666666668,
+          "latency_s": 0.21097485257220022,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 566
+        },
+        {
+          "seed": 200002,
+          "reward": 0.8527387375894966,
+          "energy_j_per_slot": 6.095423394506663,
+          "energy_j_per_completed_mbit": 0.27807588478588796,
+          "deadline_success": 0.9856115107913669,
+          "queue_mbit": 5.4799999999999995,
+          "queue_growth_mbit": 0.039999999999999994,
+          "latency_s": 0.22321810805525866,
+          "completed_subtasks": 548,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200003,
+          "reward": 0.8659867965508983,
+          "energy_j_per_slot": 6.03192080312585,
+          "energy_j_per_completed_mbit": 0.281339589698034,
+          "deadline_success": 0.9962825278810409,
+          "queue_mbit": 4.6466666666666665,
+          "queue_growth_mbit": 0.026666666666666655,
+          "latency_s": 0.22873201136624619,
+          "completed_subtasks": 536,
+          "attempted_subtasks": 538
+        },
+        {
+          "seed": 200004,
+          "reward": 0.852766484209974,
+          "energy_j_per_slot": 6.0348728414193165,
+          "energy_j_per_completed_mbit": 0.2743124018826962,
+          "deadline_success": 0.9892086330935251,
+          "queue_mbit": 5.3133333333333335,
+          "queue_growth_mbit": -0.006666666666666693,
+          "latency_s": 0.23460009289167064,
+          "completed_subtasks": 550,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200005,
+          "reward": 0.8531769821611828,
+          "energy_j_per_slot": 6.104235507388952,
+          "energy_j_per_completed_mbit": 0.2739782543711379,
+          "deadline_success": 0.9875886524822695,
+          "queue_mbit": 5.086666666666667,
+          "queue_growth_mbit": 0.020000000000000007,
+          "latency_s": 0.23965248852564422,
+          "completed_subtasks": 557,
+          "attempted_subtasks": 564
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.8591436919652735,
+          "std": 0.020951189575407855,
+          "ci95": 0.01676444316159535
+        },
+        "energy_j_per_slot": {
+          "mean": 6.035034880191425,
+          "std": 0.37209631118600445,
+          "ci95": 0.297739058542008
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.27332651744253583,
+          "std": 0.017515796068424898,
+          "ci95": 0.01401555585005431
+        },
+        "deadline_success": {
+          "mean": 0.9904629593281699,
+          "std": 0.003841147463434332,
+          "ci95": 0.003073558095318673
+        },
+        "queue_mbit": {
+          "mean": 5.274444444444445,
+          "std": 0.35793026426117447,
+          "ci95": 0.2864038602402103
+        },
+        "queue_growth_mbit": {
+          "mean": 0.01666666666666666,
+          "std": 0.019206480387850583,
+          "ci95": 0.01536838505696872
+        },
+        "latency_s": {
+          "mean": 0.22821804724523934,
+          "std": 0.010093337945336532,
+          "ci95": 0.00807635240406505
+        },
+        "completed_subtasks": {
+          "mean": 552.1666666666666,
+          "std": 9.621157241551906,
+          "ci95": 7.698529152449261
+        },
+        "attempted_subtasks": {
+          "mean": 557.5,
+          "std": 10.540398474441087,
+          "ci95": 8.434075329677027
+        }
+      },
+      "seed_count": 6
+    }
+  },
+  {
+    "stage": "RL",
+    "episode": 100,
+    "result": {
+      "episodes": [
+        {
+          "seed": 200000,
+          "reward": 0.8393751661418527,
+          "energy_j_per_slot": 6.453596109614129,
+          "energy_j_per_completed_mbit": 0.2875934095193462,
+          "deadline_success": 0.9929203539823008,
+          "queue_mbit": 5.513333333333334,
+          "queue_growth_mbit": -0.00666666666666667,
+          "latency_s": 0.2292453725348719,
+          "completed_subtasks": 561,
+          "attempted_subtasks": 565
+        },
+        {
+          "seed": 200001,
+          "reward": 0.8930638070615353,
+          "energy_j_per_slot": 5.4384005224195,
+          "energy_j_per_completed_mbit": 0.2427857376080134,
+          "deadline_success": 0.9893992932862191,
+          "queue_mbit": 5.613333333333333,
+          "queue_growth_mbit": 0.03333333333333334,
+          "latency_s": 0.20816717227140852,
+          "completed_subtasks": 560,
+          "attempted_subtasks": 566
+        },
+        {
+          "seed": 200002,
+          "reward": 0.8576106339316938,
+          "energy_j_per_slot": 6.021767089731572,
+          "energy_j_per_completed_mbit": 0.2747156519038126,
+          "deadline_success": 0.9856115107913669,
+          "queue_mbit": 5.4799999999999995,
+          "queue_growth_mbit": 0.039999999999999994,
+          "latency_s": 0.22125107943935912,
+          "completed_subtasks": 548,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200003,
+          "reward": 0.8688368574602577,
+          "energy_j_per_slot": 6.046257115383068,
+          "energy_j_per_completed_mbit": 0.28200826097868786,
+          "deadline_success": 0.9944341372912802,
+          "queue_mbit": 4.666666666666666,
+          "queue_growth_mbit": 0.02666666666666666,
+          "latency_s": 0.22754219514359142,
+          "completed_subtasks": 536,
+          "attempted_subtasks": 539
+        },
+        {
+          "seed": 200004,
+          "reward": 0.8665272592745904,
+          "energy_j_per_slot": 5.900427450778765,
+          "energy_j_per_completed_mbit": 0.2682012477626711,
+          "deadline_success": 0.9892086330935251,
+          "queue_mbit": 5.393333333333333,
+          "queue_growth_mbit": -0.0066666666666666844,
+          "latency_s": 0.2284634587877959,
+          "completed_subtasks": 550,
+          "attempted_subtasks": 556
+        },
+        {
+          "seed": 200005,
+          "reward": 0.8475892794211732,
+          "energy_j_per_slot": 6.195929302763746,
+          "energy_j_per_completed_mbit": 0.2780937748098629,
+          "deadline_success": 0.9875886524822695,
+          "queue_mbit": 5.086666666666667,
+          "queue_growth_mbit": 0.020000000000000007,
+          "latency_s": 0.2353788683735092,
+          "completed_subtasks": 557,
+          "attempted_subtasks": 564
+        }
+      ],
+      "summary": {
+        "reward": {
+          "mean": 0.8621671672151839,
+          "std": 0.018819402995589058,
+          "ci95": 0.015058658636979482
+        },
+        "energy_j_per_slot": {
+          "mean": 6.00939626511513,
+          "std": 0.33809175566580396,
+          "ci95": 0.2705297472901615
+        },
+        "energy_j_per_completed_mbit": {
+          "mean": 0.2722330137637323,
+          "std": 0.015845544724846068,
+          "ci95": 0.012679076428958698
+        },
+        "deadline_success": {
+          "mean": 0.9898604301544937,
+          "std": 0.0032904014032155158,
+          "ci95": 0.0026328694656931554
+        },
+        "queue_mbit": {
+          "mean": 5.292222222222222,
+          "std": 0.3552630741462613,
+          "ci95": 0.2842696636628897
+        },
+        "queue_growth_mbit": {
+          "mean": 0.017777777777777774,
+          "std": 0.0200739374055755,
+          "ci95": 0.016062495232261394
+        },
+        "latency_s": {
+          "mean": 0.22500802442508935,
+          "std": 0.009397877504621779,
+          "ci95": 0.007519868153491247
+        },
+        "completed_subtasks": {
+          "mean": 552.0,
+          "std": 9.444575162494075,
+          "ci95": 7.55723406192151
+        },
+        "attempted_subtasks": {
+          "mean": 557.6666666666666,
+          "std": 10.17185659880568,
+          "ci95": 8.139180411919726
+        }
+      },
+      "seed_count": 6
+    }
+  }
+]

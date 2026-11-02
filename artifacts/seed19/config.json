@@ -1,0 +1,50 @@
+{
+  "environment": {
+    "agents": 6,
+    "rsus": 2,
+    "subtasks": 3,
+    "horizon": 40,
+    "road_m": 1000.0,
+    "slot_s": 1.0,
+    "deadline_s": 1.0,
+    "task_mb": 0.6,
+    "cycles_per_bit": 500.0,
+    "arrival_rate": 2.3,
+    "local_ghz": 2.5,
+    "moving_ghz": 5.0,
+    "parked_ghz": 8.0,
+    "mec_ghz": 60.0,
+    "moving_slots": 2,
+    "parked_slots": 2,
+    "mec_slots": 3,
+    "tx_power_w": 0.1,
+    "bandwidth_hz": 20000000.0,
+    "twin_relative_std": 0.05,
+    "lyapunov_v": 1.0,
+    "energy_scale_j": 1.0,
+    "failure_penalty": 3.0
+  },
+  "training": {
+    "seed": 19,
+    "episodes": 100,
+    "batch_size": 32,
+    "replay_size": 1024,
+    "update_interval": 10,
+    "warmup_steps": 256,
+    "imitation_steps": 160,
+    "actor_lr": 0.001,
+    "critic_lr": 0.001,
+    "gamma": 0.95,
+    "tau": 0.01,
+    "lyapunov_phi": 0.15,
+    "noise_start": 0.8,
+    "noise_end": 0.05,
+    "eval_interval": 10,
+    "hidden": [
+      80,
+      60
+    ],
+    "graph_hidden": 32,
+    "threads": 1
+  }
+}
